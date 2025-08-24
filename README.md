@@ -4,21 +4,36 @@ A comprehensive Python system for detecting anomalies in industrial sensor data 
 
 ## Quick Start
 
+### Clone the repository
 ```bash
-# Create a virtual environment named 'venv'
+git clone https://github.com/Shyam-Raval/Multivariate-Anomaly-Detection-Honeywell.git
+cd Multivariate-Anomaly-Detection-Honeywell
+```
+### Create virtual environment
+```bash
 python -m venv venv
+```
 
-# Activate the virtual environment (Windows)
+### Activate the virtual environment
+```bash
+# Windows
 venv\Scripts\activate
 
-# Install dependencies
-pip install -r requirements.txt
+# Linux
+source venv/bin/activate
+```
 
-# Run the system with provided dataset
+### Install dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### Run the system with provided dataset
+```bash
 python test_system.py
+```
 
 # Output: anomaly_results.csv with anomaly scores and feature attribution
-```
 
 ## Features
 
